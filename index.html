@@ -8,13 +8,13 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="title">Thumbnail Downloader</h1>
+        <h1 class="title">YouTube Thumbnail Downloader</h1>
         <form class="form" onsubmit="downloadThumbnail(event)">
             <input class="input" type="text" id="videoUrl" placeholder="Paste Youtube video Link" required>
             <button class="button" type="submit">View Thumbnail</button>
         </form>
         <img class="thumbnail" id="thumbnail" src="" alt="Thumbnail">
-        <button class="button" onclick="downloadThumbnail()">Download Thumbnail</button>
+        <button class="button" onclick="downloadThumbnail(event)">Download Thumbnail</button>
     </div>
     <script src="script.js"></script>
 </body>
